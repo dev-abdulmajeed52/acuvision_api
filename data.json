@@ -1,0 +1,61 @@
+[
+    {
+      "title": "Frontend Developer",
+      "description": "Build responsive web interfaces using React and TypeScript.",
+      "company": "661f9a8b3c2d7e5f9a0b1c2d",
+      "postedBy": "661f9a8b3c2d7e5f9a0b1c2e",
+      "applications": [
+        {
+          "candidate": "661f9a8b3c2d7e5f9a0b1c2f",
+          "appliedAt": "2025-03-11T09:30:00Z"
+        }
+      ],
+      "createdAt": "2025-03-01T10:00:00Z"
+    },
+    {
+      "title": "Backend Engineer",
+      "description": "Develop RESTful APIs with Node.js and MongoDB.",
+      "company": "661f9a8b3c2d7e5f9a0b1c30",
+      "postedBy": "661f9a8b3c2d7e5f9a0b1c31",
+      "applications": [],
+      "createdAt": "2025-03-02T14:00:00Z"
+    },
+    {
+      "title": "Full Stack Developer",
+      "description": "Work on both frontend and backend using MERN stack.",
+      "company": "661f9a8b3c2d7e5f9a0b1c32",
+      "postedBy": "661f9a8b3c2d7e5f9a0b1c33",
+      "applications": [
+        {
+          "candidate": "661f9a8b3c2d7e5f9a0b1c34",
+          "appliedAt": "2025-03-12T11:00:00Z"
+        },
+        {
+          "candidate": "661f9a8b3c2d7e5f9a0b1c35",
+          "appliedAt": "2025-03-12T12:00:00Z"
+        }
+      ],
+      "createdAt": "2025-03-03T08:30:00Z"
+    },
+    {
+      "title": "Cloud Architect",
+      "description": "Design and implement cloud solutions on Azure.",
+      "company": "661f9a8b3c2d7e5f9a0b1c36",
+      "postedBy": "661f9a8b3c2d7e5f9a0b1c37",
+      "applications": [],
+      "createdAt": "2025-03-04T16:00:00Z"
+    },
+    {
+      "title": "QA Engineer",
+      "description": "Test software applications and ensure quality standards.",
+      "company": "661f9a8b3c2d7e5f9a0b1c38",
+      "postedBy": "661f9a8b3c2d7e5f9a0b1c39",
+      "applications": [
+        {
+          "candidate": "661f9a8b3c2d7e5f9a0b1c3a",
+          "appliedAt": "2025-03-12T15:00:00Z"
+        }
+      ],
+      "createdAt": "2025-03-05T13:00:00Z"
+    }
+  ]

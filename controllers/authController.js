@@ -3,17 +3,24 @@ const generateToken = require('../utils/generateToken');
 const bcrypt = require('bcryptjs');
 
 exports.register = async (req, res) => {
-  const { email, password, role } = req.body;
+  const { name, email, password, role } = req.body;
   
   try {
     let user = await User.findOne({ email });
     if (user) return res.status(400).json({ message: 'User already exists' });
 
-    user = new User({ email, password, role });
+    user = new User({ name, email, password, role });
     await user.save();
     
     const token = generateToken(user);
-    res.status(201).json({ token, role: user.role });
+    res.status(201).json({ token,
+      message : 'Register successfully',
+      user :{
+        name: user.name,
+        email: user.email,
+        role: user.role
+      }
+     });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
@@ -29,7 +36,14 @@ exports.login = async (req, res) => {
     }
 
     const token = generateToken(user);
-    res.json({ token, role: user.role });
+    res.json({ token, 
+      user :{
+        id : user._id,
+        name: user.name,
+        email: user.email,
+        role: user.role
+      }
+       });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }

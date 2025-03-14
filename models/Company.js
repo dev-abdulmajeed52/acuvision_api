@@ -3,7 +3,8 @@ const mongoose = require('mongoose');
 const companySchema = new mongoose.Schema({
   user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
   companyName: { type: String, required: true },
-  location: String,
+  country: String,
+  city: String,
   address: { type: String, required: true },
   industry: String,
   hrName: { type: String, required: true },
